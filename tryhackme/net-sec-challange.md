@@ -17,13 +17,16 @@ This challenge focused on basic network enumeration and service analysis using c
 # Example Commands
 
 ### Open port identification
-‘’’bash
+```bash
 nmap -p <port-range> <target-ip>
+```
 
 ### Version Scan
-‘’’bash
+```bash
 nmap -sV -p <port-range> <target-ip>
+```
 
 ### Read SSH Server Headers
-‘’’bash
+```bash
 telnet <target-ip> <target-port>
+```
